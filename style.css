@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav button {
+    background: rgb(164, 49, 114);
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 25px;
+    padding: 0 20px;
+}
+
+nav button:hover {
+    background: rgb(201, 42, 120);
+}
+
+section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+section div.showcase {
+    margin: 5% 0 0 2%;
+    width: 50%;
+
+}
+
+section div.showcase h1 {
+    color: rgb(164, 49, 114);
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    font-weight: 300 !important;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+section div.showcase p {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+section div.showcase button {
+    background: rgb(164, 49, 114);
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 25px;
+    padding: 20px;
+    width: 40%;
+}
+
+section div.showcase-img {
+    width: 50%;
+    padding: 0 80px;
+}
+
+section.sponsors {
+    background: rgb(239, 239, 239);
+    margin-top: 30px;
+    height: 15rem;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+section.sponsors div img {
+    margin: 40px 0;
+}
+
+aside {
+    margin-top: 50px;
+}
+
+aside h1 {
+    text-align: center;
+}
